@@ -1,0 +1,29 @@
+header{
+    background-color: var(--color-primary) ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.dsmovie-nav-content{
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.dsmovie-nav-content h1{
+    font-weight: 700;
+    margin: 0;
+    font-size: 30px;
+}
+.dsmovie-github{
+    align-items: center;
+    display: flex;
+}
+.dsmovie-github-link{
+    margin: 0;
+    margin-left: 10px;
+}
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}

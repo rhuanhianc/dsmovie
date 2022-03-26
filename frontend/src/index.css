@@ -16,9 +16,10 @@ body,html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a, a:hover, a:focus {
-  color: unset;
+a, a:hover {
   text-decoration: none;
+  color: unset;
+  
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
