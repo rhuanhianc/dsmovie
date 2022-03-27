@@ -1,8 +1,8 @@
-import{
+import {
   BrowserRouter,
   Routes,
   Route,
-}from 'react-router-dom';
+} from 'react-router-dom';
 import Listing from 'pages/listing';
 import Form from 'pages/form';
 import NavBar from 'components/navbar';
@@ -10,12 +10,12 @@ import NavBar from 'components/navbar';
 function App() {
   return (
     <BrowserRouter>
-      <NavBar/>
+      <NavBar />
       <Routes>
-        <Route path="/" element={<Listing/>} />
+        <Route path="/" element={<Listing />} />
         <Route path="/form">
-          <Route path="movie{id}" element={<Form/>} /> 
-         </Route>
+          <Route path=":movieId" element={<Form />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
